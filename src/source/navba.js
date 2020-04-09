@@ -8,7 +8,7 @@ class Navba extends Component{
 
     render(){
         return(
-        <div className = "Box" style={{width: this.props.clic ? "100%" : "0px"}}>{this.props.cli}
+        <div className = "Box" style={{width: this.props.clic ? "330px" : "0px"} }>
           <ul>
               <li>About</li>
               <li>Projects</li>

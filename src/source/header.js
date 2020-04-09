@@ -32,9 +32,10 @@ class Heade extends Component{
               </button> 
           <div>
           <Navba clic ={!this.state.click}/>
-              </div>    
+              </div>   
+             
           </div>
-         
+           
           
         )
     }
