@@ -22,8 +22,8 @@ code {
     border:  2px;
     outline: none;
     float: left;
-    margin-top: 56px;
-    margin-left: 3%;
+    margin-top: 50px;
+    margin-left: 6%;
     font-size: 24px;
     
 }
@@ -42,15 +42,29 @@ code {
 
 .Box ul {
   list-style-type: none;
-   margin-top: 100px;
+   margin-top: 120px;
 }
 .Box ul li{
  
-  margin-left: 100px;
+  margin-left: 50px;
  
   font-size: 34px;
- margin-bottom: 50px;
+ margin-bottom: 40px;
  font-size: 24px;
 }
 
-
+.myImg{
+  width: 200px ;
+  height :200px;
+ border-radius:50% 50% ;
+ margin-top: 170px;
+ 
+}
+.Home{
+  margin-top: 250px;
+}
+.Box ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

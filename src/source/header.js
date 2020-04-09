@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
-import ReactCSSTransitionGroup from 'react-transition-group';
+
 import Navba from "./navba"
 
 
@@ -27,7 +27,7 @@ class Heade extends Component{
         return(
            
             <div >
-          <button  className="sidebar" onClick={this.handleClick} >
+          <button  className="sidebar" onClick={this.handleClick} style={{position :"absolute"}}>
  {this.state.click ? (<FontAwesomeIcon icon={faBars} style={{transition : '0.6s',}}/>) : (<FontAwesomeIcon icon={faTimes} style={{transition : '3s',position:"absolute",zIndex:1}} />) }
               </button> 
           <div>
