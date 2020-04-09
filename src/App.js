@@ -1,8 +1,10 @@
 import React from 'react';
-import Heade from './source/header.js'
+import Heade from "./source/header"
 import './App.css';
+
 import About from "./source/about"
 import Contact from "./source/Contact"
+import Projects from "./source/project"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from "./source/Home"
 function App() {
@@ -12,7 +14,7 @@ function App() {
   
    <Router>
      <Switch>
-     <Route path = '/' component ={Home} />
+     <Route path = '/' component ={Home} exact/>
        <Route path = '/about' component ={About} />
        <Route path = 'projects' component ={Projects} />
         <Route path ='/contact' component= {Contact} />

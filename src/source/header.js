@@ -23,12 +23,12 @@ class Heade extends Component{
 
     render(){
         //
-        console.log(this.state.click)
+     
         return(
            
             <div >
           <button  className="sidebar" onClick={this.handleClick} style={{position :"absolute"}}>
- {this.state.click ? (<FontAwesomeIcon icon={faBars} style={{transition : '0.6s',}}/>) : (<FontAwesomeIcon icon={faTimes} style={{transition : '3s',position:"absolute",zIndex:1}} />) }
+ {this.state.click ? (<FontAwesomeIcon icon={faBars} style={{transition : '0.6s',outline :"none",border:'none'}}/>) : (<FontAwesomeIcon icon={faTimes} style={{position:"absolute",zIndex :1}} />) }
               </button> 
           <div>
           <Navba clic ={!this.state.click}/>
