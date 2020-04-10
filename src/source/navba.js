@@ -9,7 +9,7 @@ class Navba extends Component{
         <div className = "Box" style={{width: this.props.clic ? "330px" : "0px"} }>
           <ul>
               <li><a href= "/about 200">About</a></li>
-              <li><a href= "/projects.html 200">Projects</a></li>
+              <li><a href= "/projects /index.html">Projects</a></li>
               <li><a href= "/contact">Contact</a></li>
             
           </ul>
