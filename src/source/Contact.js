@@ -11,10 +11,10 @@ class Contact extends Component{
                  
             <Container>
                    <Row >
-                       <Col ></Col>
-                       <Col className="contact-me">ContactMe</Col>
+                     
+                       <Col className="contact-me">Contact</Col>
                        <Col></Col>
-                    
+                      
                    </Row>
                    </Container>
                    <Container className="icons">
