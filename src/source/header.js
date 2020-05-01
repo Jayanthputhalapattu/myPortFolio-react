@@ -1,44 +1,30 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+
+import {FaTimes ,FaBars, FaBorderNone} from 'react-icons/fa'
 
 import Navba from "./navba"
+import { Button } from "reactstrap";
 
-
-class Heade extends Component{
-    constructor(props){
-        
-        super(props)
-        this.state  ={
-            click : true
-        }
-        this.handleClick = this.handleClick.bind(this)
-    }
-    handleClick(){
-        this.setState(state =>({
-               click : !state.click
-        }))
-    }
-
-    render(){
-        //
-     
+const Heade = () =>{
+    const [clic,setClic] = useState(false)
         return(
            
             <div >
-          <button  className="sidebar" onClick={this.handleClick} style={{position :"absolute"}}>
- {this.state.click ? (<FontAwesomeIcon icon={faBars} style={{transition : '0.6s',outline :"none",border:'none'}}/>) : (<FontAwesomeIcon icon={faTimes} style={{position:"absolute",zIndex :1}} />) }
-              </button> 
+                <Navba clic ={clic}/>
+              <span onClick={()=>setClic(!clic )} className="sidebar">
+                  {clic ? <span style={{marginLeft:300,transition:"0.4s cubic-bezier(0.47, 0, 0.745, 0.715) ",zIndex:1}} ><FaTimes style={{transition:"0.4s cubic-bezier(0.47, 0, 0.745, 0.715)"}}/></span> : <FaBars />  }
+                  </span>    
           <div>
-          <Navba clic ={!this.state.click}/>
+          
+          
               </div>   
              
           </div>
            
           
         )
+  
     }
-}
-
 export default Heade
+

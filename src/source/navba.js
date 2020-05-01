@@ -1,21 +1,17 @@
-import React, { Component } from "react";
+import React, { Component ,useState} from "react";
+import Heade from "./header"
+import {FaTimes} from "react-icons/fa"
 
-
-class Navba extends Component{
-  
-
-    render(){
+  const Navba = ({clic}) =>{
+   
+      
         return(
-        <div className = "Box" style={{width: this.props.clic ? "330px" : "0px"} }>
-          <ul>
-              <li><a href= "/about 200">About</a></li>
-              <li><a href= "/projects /index.html">Projects</a></li>
-              <li><a href= "/contact">Contact</a></li>
-            
-          </ul>
+        <div className = "Box" style={{width:clic ? "330px" : "0px" } } id="Box">
+          <h2>
+              Coming soon
+          </h2>
   
         </div>
         )
-    }
-}
+        }
 export default Navba
