@@ -9,12 +9,12 @@ class About extends Component{
     render(){
         return(
             <div >
-                <div className = "about" style={{zIndex:-1,paddingTop:window.innerHeight/3}}>
+                <div className = "about" style={{zIndex:-1,paddingTop:window.innerHeight/4}}>
                   <Container >
                       <Row style={{  borderBottom:"1.5px solid rgb(155, 25, 122)",borderBottomLeftRadius:24,borderBottomRightRadius:24,}}>
                           <Col >
                           
-                        <h1 style={{opacity :0.7,fontSize:50}}> About</h1> 
+                        <h1 style={{fontSize:50}}> About</h1> 
                         <p style={{fontSize :20 ,}}>Myself Jayanth, self-taught  web developer (MERN - STACK) and also
 ML enthusiast.I have interests in learning algo and Data Structures.
 I have worked on projects with Local Development teams. Currently I am pursuing my under Graduation(EC) in Sri Venkateswara University
