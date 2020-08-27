@@ -16,34 +16,34 @@ const  App=()=> {
   <div>
 
      
-      <Container fluid> 
-        <Row>
-          <Col>
-          <Heade />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-           <Home />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-             <About />
-          </Col>
-        </Row>
-       <Row>
-         <Col>
-         <Projects />
-         </Col>
-       </Row>
-       <hr/>
-       <Row>
-         <Col>
-         <Footer />
-         </Col>
-       </Row>
-      </Container>
+//       <Container fluid> 
+//         <Row>
+//           <Col>
+//           <Heade />
+//           </Col>
+//         </Row>
+//         <Row>
+//           <Col>
+//            <Home />
+//           </Col>
+//         </Row>
+//         <Row>
+//           <Col>
+//              <About />
+//           </Col>
+//         </Row>
+//        <Row>
+//          <Col>
+//          <Projects />
+//          </Col>
+//        </Row>
+//        <hr/>
+//        <Row>
+//          <Col>
+//          <Footer />
+//          </Col>
+//        </Row>
+//       </Container>
   
     <Router>
      <Switch>
