@@ -45,7 +45,7 @@ const  App=()=> {
        </Row>
       </Container>
   
-   {/* <Router>
+    <Router>
      <Switch>
      <Route path = '/' component ={Home} exact/>
        <Route path = '/about' component ={About} />
@@ -53,7 +53,7 @@ const  App=()=> {
         <Route path ='/contact' component= {Contact} />
      
      </Switch>
-     </Router>   */}
+     </Router>   
       
  
 </div>
